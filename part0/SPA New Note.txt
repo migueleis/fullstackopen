@@ -1,0 +1,7 @@
+title SPA New Note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+browser saves note in DB
+end note
+server-->browser: HTML-code
