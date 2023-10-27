@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "test",
-    "build:ui": "rm -rf build && cd ../part2-notes-front && npm run build --prod && cp -r build ../notes-backend/"
+    "build:ui": "rm -rf dist && cd ../part2-notes-front && npm run build --prod && cp -r build ../notes-backend/dist"
   },
   "author": "",
   "license": "ISC",
